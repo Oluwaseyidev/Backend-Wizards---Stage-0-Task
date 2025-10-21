@@ -1,26 +1,33 @@
-# Backend Wizards — Stage 0
+# Backend Wizards – Stage 0
 
-## Overview
-A small Node.js/Express API that returns my profile and a random cat fact.
+## Project Description
+This project creates a `/me` endpoint that returns user profile data and a dynamic cat fact from the Cat Facts API.
 
-## Endpoint
-`GET /me` — returns JSON:
-- status: "success"
-- user: { email, name, stack }
-- timestamp: current UTC ISO 8601
-- fact: random cat fact from https://catfact.ninja/fact
+## Tech Stack
+- Node.js
+- Express.js
+- Axios
+- CORS
 
-## Run locally
-1. Install Node.js (https://nodejs.org)
-2. Clone repo
-3. Install dependencies:
-   ```bash
-   npm install
+## Setup Instructions
 
-
-## 🚀 Setup Instructions
-
-### 1️⃣ Clone the repository
+1. Clone the repository:
 ```bash
-git clone https://github.com/Oluwaseyidev/Backend-Wizards---Stage-0-Task
+git clone # Backend Wizards – Stage 0
+
+## Project Description
+This project creates a `/me` endpoint that returns user profile data and a dynamic cat fact from the Cat Facts API.
+
+## Tech Stack
+- Node.js
+- Express.js
+- Axios
+- CORS
+
+## Setup Instructions
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/backend-wizard.git
 cd backend-wizard
+
