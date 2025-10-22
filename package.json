@@ -1,10 +1,11 @@
 {
   "name": "backend-wizards-stage0",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project creates a `/me` endpoint that returns user profile data and a dynamic cat fact from the Cat Facts API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,13 @@
     "axios": "^1.12.2",
     "cors": "^2.8.5",
     "express": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oluwaseyidev/Backend-Wizards---Stage-0-Task.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Oluwaseyidev/Backend-Wizards---Stage-0-Task/issues"
+  },
+  "homepage": "https://github.com/Oluwaseyidev/Backend-Wizards---Stage-0-Task#readme"
 }
